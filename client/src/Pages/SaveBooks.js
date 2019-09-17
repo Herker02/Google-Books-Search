@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from "./node_modules/react";
 import API from "../utils/API";
-import Jumbotron from "../components/Jumbotron";
-import { Container} from "../components/Grid";
-import SavedResult from "../components/SavedResult"
+import Jumbotron from "../component/Jumbotron";
+import { Container} from "../component/Grid";
+import SavedResult from "../component/SavedResult"
 
 class SaveBook extends Component {
     state = {

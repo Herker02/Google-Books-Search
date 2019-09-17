@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SaveBooks from "./pages/SaveBooks";
 import SearchBooks from "./pages/SearchBooks";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer"
+import Nav from "./component/Nav";
+import Footer from "./component/Footer"
 import "./App.css"
 
 
